@@ -1,0 +1,124 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #010101;
+}
+.header{
+    min-height: 25vh;
+}
+
+.header .title1{
+    color: #01d449;
+    margin: 0px 12px;
+    text-align: center;
+}
+.header .text{
+    font-size: 1.8em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(22),
+        cursor .4s step-end infinite alternate;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-solid{
+    color: #01d449;
+    font-size: 50px;
+}
+
+.fa-solid{
+    animation: jump .7s linear infinite;
+}
+@keyframes jump{
+    10% {transform: translateY(2px);}
+    20% {transform: translateY(4px);}
+    30% {transform: translateY(6px);}
+    40% {transform: translateY(8px);}
+    50% {transform: translateY(10px);}
+    60% {transform: translateY(8px);}
+    70% {transform: translateY(6px);}
+    80% {transform: translateY(4px);}
+    90% {transform: translateY(2px);}
+    100% {transform: translateY(0px);}
+}
+
+@keyframes typing {
+    from { width: 0}
+}
+@media(max-width:767px) {
+    /*.text{
+        font-size: 15px;
+        letter-spacing: 5px;
+    }*/
+}
+.paragragh1{
+    color: #01d449;
+    margin: 0px 12px;
+    min-height: 100vh;
+    text-align: center;
+}
+.paragragh1 .text2{
+    font-size: 1.8em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    width: 100%;
+}
+.paragragh2{
+    color: #01d449;
+    margin: 0px 12px;
+    min-height: 100vh;
+    text-align: center;
+}
+.paragragh2 .text3{
+    font-size: 1.8em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    width: 100%;
+}
+.paragragh3{
+    color: #01d449;
+    margin: 0px 12px;
+    min-height: 100vh;
+    text-align: center;
+}
+.paragragh3 .text4{
+    font-size: 1.8em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    width: 100%;
+}
+.paragragh4{
+    color: #01d449;
+    margin: 0px 12px;
+    min-height: 70vh;
+    text-align: center;
+}
+.paragragh4 .text5{
+    font-size: 1.8em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    width: 100%;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.btn2 a{
+    text-decoration: none;
+    border: 2px solid #01d449;
+    color: #010101;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: #01d449;
+    animation: jump .7s linear infinite;
+}

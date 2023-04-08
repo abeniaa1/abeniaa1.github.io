@@ -67,7 +67,7 @@ input {
 .game-block .a .aa{
     height: 20%;
     padding-top: 100%;
-    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/game_img1.png);
+    background-image: url(images/game_img1.png);
     background-position: center;
     background-repeat: none;
     background-size: cover;

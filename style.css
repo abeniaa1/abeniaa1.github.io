@@ -41,7 +41,7 @@ body{
     text-decoration: none;
     color: rgb(35, 145, 83);
     font-size: 25px;
-    font-family: galaxia;
+    font-family: jost;
 
 }
 
@@ -190,7 +190,7 @@ back ground shape*/
     background-color: #010101;
     text-align: center;
     padding-top: 30px;
-    font-family: galaxia;
+    font-family: jost;
 }
 .game-blocks2{
     display: flex;
