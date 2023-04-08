@@ -1,0 +1,230 @@
+body{
+    background-color: #010101;
+}
+/*The top navigation*/
+.topnavig{
+    overflow:hidden;
+    background-color: #010101;
+    padding: 10px;
+}
+  
+.topnavig a{
+    float:left;
+    display:block;
+    color: #01d449;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.topnavig a span{
+    transition: 1s;
+}
+.topnavig a span:hover{
+    font-size: 50px;
+    transition: 1s;
+}
+  
+.topnavig .search-c{
+    float:right;
+    margin-top: 10px;
+}
+  
+form{
+    background-color:#151f30;
+    width:300px;
+    height:43px;
+    border-radius: 50px;
+    display:flex;
+    align-items:center;
+}
+input {
+    all:unset;
+    font:15px system-ui;
+    color:#fff;
+    height:100%;
+    width:100%;
+    padding:6px 9px;
+}
+/*The list of games*/
+.game-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 35px;
+}
+.a{
+    width: 250px;
+    height: 300px;
+    margin-inline: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    transition: 1s;
+}
+.game-block .a .aa{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/game_img1.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ab{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ac{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ad{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .aa2{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ab2{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ac2{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ad2{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .aa3{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ab3{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ac3{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ad3{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .aa4{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ab4{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ac4{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a .ad4{
+    height: 20%;
+    padding-top: 100%;
+    background-image: linear-gradient(rgba(80,80,80,0.5),rgba(80,80,80,0.5)), url(images/comming-soon.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius:5px;
+}
+.game-block .a a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.a:hover{
+    transform: scale(1.2);
+}
+@media(max-width:767px){
+    .game-block{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        float: right;
+    }
+    .a{
+        margin-top: 120px;
+    }
+}
