@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/8693f8f216.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div id="preloader"></div>
     <section class="header">
         <div class="title1">
             <p class="text">I am a game developer.</p>
@@ -51,5 +52,14 @@
         <a href="index.html">Back to home</a>
     </div>
     
+    <!--For preloader-->
+<script>
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function(){
+        loader.style.display="none";
+    })
+
+</script>
 </body>
 </html>

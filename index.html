@@ -12,17 +12,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <div id="preloader"></div>
     <!--The first page-->
     <section class="home1">
         <nav>
             <div class="nav-links" id="navLinks">
               <div class = "fa"> <i class="fa-solid fa-x" onclick="hideMenu()"></i> </div>
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <!--HOME--><li><a href="index.html"><img src="images/logo1.png"></a></li>
                     <li><a href="index3.html">ABOUT</a></li>
                     <li><a href="index2.html">CONTENT</a></li>
-                    <li><a href="#">BLOG</a></li>
+                    <li><a href="index4.html">BLOG</a></li>
                 </ul>
               </div>
               <div class = "fa2"> <i class="fa-solid fa-bars" onclick="showMenu()"></i> </div>
@@ -31,10 +31,15 @@
             <a href="index.html"><img src="images/logo1.png"></a>
             <a href="index.html"><img src="images/logo2.png"></a>
         </div>
-
+        <div class="flyy"><div class="f f1">Let</div> 
+                        <div class="f f2">There</div> 
+                        <div class="f f3">Be</div> 
+                        <div class="f f4">GAMEZ</div> 
+        </div>
     </section>
 
     <!--The second page-->
+    <div class="title2"><h1>Application Games</h1></div>
     <section class="home2">
         <h1></h1>
         <div class="game-blocks">
@@ -52,6 +57,27 @@
             <a href="index2.html"><div class="c1"></div></a>
         </div>
     </section>
-    <script src="script.js"></script>
+
+    <section class="home4">
+        <div class="paragragh">
+            <p>Hi there, enjoying our website? <br>
+                Play our games and have a great time. If you want to support us 
+                contact us with our e-mail, you can find it in the blog section,
+                we have a passion for creating immersive and engaging video games. 
+                I've been interested in game design for as long as 
+                I can remember, and I've spent countless hours working on game projects 
+                throughout my career.<a href="index3.html">Read more about me</a></p>
+        </div>
+    </section>
+    
+    <!--For preloader-->
+<script>
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function(){
+        loader.style.display="none";
+    })
+
+</script>
 </body>
 </html>
