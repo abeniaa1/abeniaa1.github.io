@@ -7,6 +7,19 @@ body{
     font-family: jost;
 }
 /*The top navigation*/
+.mov-logo {
+    width: 10%;
+    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 30px;
+}
+.mov-logo img{
+    width: 115px;
+    height: 50px;
+}
 .topnavig{
     overflow:hidden;
     background-color: #010101;

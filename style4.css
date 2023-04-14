@@ -13,6 +13,19 @@ body{
     align-items: center;
     margin-top: 50px;
 }
+.mov-logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    position: fixed;
+    margin: 20px;
+}
+.mov-logo img{
+    width: 115px;
+    height: 50px;
+}
 
 .cont{
     width:200px;
